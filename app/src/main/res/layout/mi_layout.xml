@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:weightSum="2">
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvProduct"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_margin="10dp"
+    android:background="#f6f7ef"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardCornerRadius="4dp"
+    android:elevation="3dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:visibility="visible">
+
+
+        <ImageView
+            android:id="@+id/recommendImage"
+            android:layout_width="178dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/recommendImage"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Medium Text"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
+

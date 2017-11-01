@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="query_suggestions" >
+    <item>Furniture</item>
+    <item>Women Fashion</item>
+    <item>Hotels</item>
+        <item>Hotels1</item><item>Hotels2</item>
+        <item>Hotels3</item>
+        <item>Hotels45</item>
+        <item>Hotels5</item>
+
+
+
+    <item>Man Fashion</item>
+    <item>Electronics Appliances</item>
+
+    </string-array>
+</resources>

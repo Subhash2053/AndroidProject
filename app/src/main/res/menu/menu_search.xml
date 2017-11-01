@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="S"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        android:id="@+id/search">
+    </item>
+    <item
+        android:title="Recent Search"
+        app:showAsAction="never"
+        android:id="@+id/recentSearch">
+
+    </item>
+    <item
+        android:title="Cart"
+        app:showAsAction="never"
+        android:id="@+id/cart">
+
+    </item>
+    <item
+        android:title="Profile"
+        app:showAsAction="never"
+        android:id="@+id/profile">
+
+    </item>
+    <item
+        android:title="notification"
+        app:showAsAction="never"
+        android:id="@+id/not">
+
+    </item>
+</menu>

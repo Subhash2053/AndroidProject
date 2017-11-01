@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/recommendTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECOMMENDATION:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recommendTV"
+        android:id="@+id/recommendRecycle">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

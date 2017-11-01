@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        tools:context="fun.com.example.lenovo.recycle.Main2Activity">
+        <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:id="@+id/appBarLayout">
+
+            <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:navigationIcon="?attr/homeAsUpIndicator"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/appBarLayout"
+            android:layout_marginTop="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:text="Samsung Grand Neo Plus"
+
+            android:gravity="center"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15,000"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="359dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+
+        <Button
+            android:id="@+id/okay"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/textView2"
+            android:text="Add to Cart"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <Button
+            android:id="@+id/compare"
+            android:layout_width="158dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/okay"
+            android:text="Compare with"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="450dp" />
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_width="186dp"
+            android:layout_height="48dp"
+            android:layout_alignEnd="@+id/okay"
+            android:layout_toRightOf="@+id/compare"
+            android:layout_alignRight="@+id/okay"
+            android:layout_below="@+id/okay"
+            android:text="Buy Now"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="453dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+
+            style="@style/fRatingBar"
+            android:layout_width="wrap_content"
+
+
+            android:layout_height="wrap_content"
+
+
+            android:isIndicator="false"
+            android:numStars="5"
+            android:stepSize="0.5"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="513dp"
+            android:layout_below="@+id/compare"
+            android:layout_alignRight="@+id/compare"
+            android:layout_alignEnd="@+id/compare" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:elevation="1dp"
+            android:text="3.5"
+            tools:layout_editor_absoluteX="238dp"
+            tools:layout_editor_absoluteY="527dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_below="@+id/pay" />
+
+
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="215dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/customborder"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="570dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:text="DETAILS:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="583dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Display"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView11"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp"
+                android:layout_toEndOf="@+id/textView11"
+                android:layout_toRightOf="@+id/textView11"
+                android:hint="hello" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView10"
+                android:layout_marginTop="20dp"
+                android:text="Memory"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView11"
+
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignLeft="@+id/tvDisplay"
+                android:layout_alignStart="@+id/tvDisplay"
+                android:hint="hello" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="25dp"
+                android:text="OS"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvMemory"
+                android:layout_alignStart="@+id/tvMemory"
+                android:layout_alignTop="@+id/textView12"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView12"
+                android:layout_marginTop="16dp"
+                android:text="Audio"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvaudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvos"
+                android:layout_alignStart="@+id/tvos"
+                android:layout_alignTop="@+id/textView14"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Camera"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvaudio"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tvaudio"
+                android:text="TextView" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginTop="40dp"
+            android:padding="5dp"
+            android:text="Similar Products"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="767dp" />
+
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/similar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView7"
+                android:padding="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/rateit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp"
+            android:text="Submit"
+            android:layout_below="@+id/pay"
+            android:layout_alignLeft="@+id/pay"
+            android:layout_alignStart="@+id/pay" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "587735233216",
+    "firebase_url": "https://recycle-62ef4.firebaseio.com",
+    "project_id": "recycle-62ef4",
+    "storage_bucket": "recycle-62ef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587735233216:android:8757160fc887e01b",
+        "android_client_info": {
+          "package_name": "fun.com.example.lenovo.recycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587735233216-mqi8os3sm9sq43ql6pt56mnk1i3l8m4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fun.com.example.lenovo.recycle",
+            "certificate_hash": "218590f8656259c72e86e38df1c39298fafe39ee"
+          }
+        },
+        {
+          "client_id": "587735233216-s1c3cqs5irrbjjqfq9fijgm6rqbruiaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJFfTx2fiAoCp4Mh8gQQUl7tNO9ARjWOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587735233216-s1c3cqs5irrbjjqfq9fijgm6rqbruiaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
